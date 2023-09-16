@@ -1,0 +1,14 @@
+C:\Users\saund\source\repos\MyFirstConsoleApplication\bin\Debug\net6.0\MyFirstConsoleApplication.exe
+C:\Users\saund\source\repos\MyFirstConsoleApplication\bin\Debug\net6.0\MyFirstConsoleApplication.deps.json
+C:\Users\saund\source\repos\MyFirstConsoleApplication\bin\Debug\net6.0\MyFirstConsoleApplication.runtimeconfig.json
+C:\Users\saund\source\repos\MyFirstConsoleApplication\bin\Debug\net6.0\MyFirstConsoleApplication.dll
+C:\Users\saund\source\repos\MyFirstConsoleApplication\bin\Debug\net6.0\MyFirstConsoleApplication.pdb
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.AssemblyInfo.cs
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.dll
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\refint\MyFirstConsoleApplication.dll
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.pdb
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\MyFirstConsoleApplication.genruntimeconfig.cache
+C:\Users\saund\source\repos\MyFirstConsoleApplication\obj\Debug\net6.0\ref\MyFirstConsoleApplication.dll
