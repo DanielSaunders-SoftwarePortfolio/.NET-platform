@@ -1,0 +1,16 @@
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\bin\Debug\net6.0-windows\TimedMathQuiz.exe
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\bin\Debug\net6.0-windows\TimedMathQuiz.deps.json
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\bin\Debug\net6.0-windows\TimedMathQuiz.runtimeconfig.json
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\bin\Debug\net6.0-windows\TimedMathQuiz.dll
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\bin\Debug\net6.0-windows\TimedMathQuiz.pdb
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.Form1.resources
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.csproj.GenerateResource.cache
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.AssemblyInfoInputs.cache
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.AssemblyInfo.cs
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.csproj.CoreCompileInputs.cache
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.dll
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\refint\TimedMathQuiz.dll
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.pdb
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\TimedMathQuiz.genruntimeconfig.cache
+C:\Users\saund\Documents\Code\CSE 325\.NET-platform\TimedMathQuiz\obj\Debug\net6.0-windows\ref\TimedMathQuiz.dll
