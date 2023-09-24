@@ -67,27 +67,27 @@
             timeLabel.AccessibleName = "Time Remaining";
             timeLabel.BorderStyle = BorderStyle.FixedSingle;
             timeLabel.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            timeLabel.Location = new Point(141, 9);
+            timeLabel.Location = new Point(123, 7);
             timeLabel.Name = "timeLabel";
-            timeLabel.Size = new Size(200, 38);
+            timeLabel.Size = new Size(175, 29);
             timeLabel.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(9, 9);
+            label1.Location = new Point(8, 7);
             label1.Name = "label1";
-            label1.Size = new Size(126, 37);
+            label1.Size = new Size(99, 30);
             label1.TabIndex = 1;
             label1.Text = "Time Left";
             // 
             // plusLeftLabel
             // 
             plusLeftLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            plusLeftLabel.Location = new Point(9, 54);
+            plusLeftLabel.Location = new Point(8, 40);
             plusLeftLabel.Name = "plusLeftLabel";
-            plusLeftLabel.Size = new Size(60, 50);
+            plusLeftLabel.Size = new Size(52, 38);
             plusLeftLabel.TabIndex = 2;
             plusLeftLabel.Text = "?";
             plusLeftLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -95,9 +95,9 @@
             // label2
             // 
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(207, 54);
+            label2.Location = new Point(181, 40);
             label2.Name = "label2";
-            label2.Size = new Size(60, 50);
+            label2.Size = new Size(52, 38);
             label2.TabIndex = 3;
             label2.Text = "=";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -105,9 +105,9 @@
             // plusRightLabel
             // 
             plusRightLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            plusRightLabel.Location = new Point(141, 54);
+            plusRightLabel.Location = new Point(123, 40);
             plusRightLabel.Name = "plusRightLabel";
-            plusRightLabel.Size = new Size(60, 50);
+            plusRightLabel.Size = new Size(52, 38);
             plusRightLabel.TabIndex = 4;
             plusRightLabel.Text = "?";
             plusRightLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -115,9 +115,9 @@
             // label4
             // 
             label4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(75, 54);
+            label4.Location = new Point(66, 40);
             label4.Name = "label4";
-            label4.Size = new Size(60, 50);
+            label4.Size = new Size(52, 38);
             label4.TabIndex = 5;
             label4.Text = "+";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -125,9 +125,10 @@
             // sum
             // 
             sum.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            sum.Location = new Point(273, 57);
+            sum.Location = new Point(239, 43);
+            sum.Margin = new Padding(3, 2, 3, 2);
             sum.Name = "sum";
-            sum.Size = new Size(100, 47);
+            sum.Size = new Size(88, 39);
             sum.TabIndex = 1;
             sum.ValueChanged += sum_ValueChanged;
             sum.Enter += answer_Enter;
@@ -135,9 +136,10 @@
             // difference
             // 
             difference.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            difference.Location = new Point(273, 107);
+            difference.Location = new Point(239, 80);
+            difference.Margin = new Padding(3, 2, 3, 2);
             difference.Name = "difference";
-            difference.Size = new Size(100, 47);
+            difference.Size = new Size(88, 39);
             difference.TabIndex = 2;
             difference.ValueChanged += difference_ValueChanged;
             difference.Enter += answer_Enter;
@@ -145,9 +147,9 @@
             // label3
             // 
             label3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(75, 104);
+            label3.Location = new Point(66, 78);
             label3.Name = "label3";
-            label3.Size = new Size(60, 50);
+            label3.Size = new Size(52, 38);
             label3.TabIndex = 10;
             label3.Text = "-";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -155,9 +157,9 @@
             // minusRightLabel
             // 
             minusRightLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            minusRightLabel.Location = new Point(141, 104);
+            minusRightLabel.Location = new Point(123, 78);
             minusRightLabel.Name = "minusRightLabel";
-            minusRightLabel.Size = new Size(60, 50);
+            minusRightLabel.Size = new Size(52, 38);
             minusRightLabel.TabIndex = 9;
             minusRightLabel.Text = "?";
             minusRightLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -165,9 +167,9 @@
             // label6
             // 
             label6.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(207, 104);
+            label6.Location = new Point(181, 78);
             label6.Name = "label6";
-            label6.Size = new Size(60, 50);
+            label6.Size = new Size(52, 38);
             label6.TabIndex = 8;
             label6.Text = "=";
             label6.TextAlign = ContentAlignment.MiddleCenter;
@@ -175,9 +177,9 @@
             // minusLeftLabel
             // 
             minusLeftLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            minusLeftLabel.Location = new Point(9, 104);
+            minusLeftLabel.Location = new Point(8, 78);
             minusLeftLabel.Name = "minusLeftLabel";
-            minusLeftLabel.Size = new Size(60, 50);
+            minusLeftLabel.Size = new Size(52, 38);
             minusLeftLabel.TabIndex = 7;
             minusLeftLabel.Text = "?";
             minusLeftLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -185,9 +187,10 @@
             // product
             // 
             product.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            product.Location = new Point(273, 157);
+            product.Location = new Point(239, 118);
+            product.Margin = new Padding(3, 2, 3, 2);
             product.Name = "product";
-            product.Size = new Size(100, 47);
+            product.Size = new Size(88, 39);
             product.TabIndex = 3;
             product.ValueChanged += product_ValueChanged;
             product.Enter += answer_Enter;
@@ -195,9 +198,9 @@
             // label8
             // 
             label8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(75, 154);
+            label8.Location = new Point(66, 116);
             label8.Name = "label8";
-            label8.Size = new Size(60, 50);
+            label8.Size = new Size(52, 38);
             label8.TabIndex = 15;
             label8.Text = "x";
             label8.TextAlign = ContentAlignment.MiddleCenter;
@@ -205,9 +208,9 @@
             // timesRightLabel
             // 
             timesRightLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            timesRightLabel.Location = new Point(141, 154);
+            timesRightLabel.Location = new Point(123, 116);
             timesRightLabel.Name = "timesRightLabel";
-            timesRightLabel.Size = new Size(60, 50);
+            timesRightLabel.Size = new Size(52, 38);
             timesRightLabel.TabIndex = 14;
             timesRightLabel.Text = "?";
             timesRightLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -215,9 +218,9 @@
             // label10
             // 
             label10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(207, 154);
+            label10.Location = new Point(181, 116);
             label10.Name = "label10";
-            label10.Size = new Size(60, 50);
+            label10.Size = new Size(52, 38);
             label10.TabIndex = 13;
             label10.Text = "=";
             label10.TextAlign = ContentAlignment.MiddleCenter;
@@ -225,9 +228,9 @@
             // timesLeftLabel
             // 
             timesLeftLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            timesLeftLabel.Location = new Point(9, 154);
+            timesLeftLabel.Location = new Point(8, 116);
             timesLeftLabel.Name = "timesLeftLabel";
-            timesLeftLabel.Size = new Size(60, 50);
+            timesLeftLabel.Size = new Size(52, 38);
             timesLeftLabel.TabIndex = 12;
             timesLeftLabel.Text = "?";
             timesLeftLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -235,9 +238,10 @@
             // quotient
             // 
             quotient.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            quotient.Location = new Point(273, 207);
+            quotient.Location = new Point(239, 155);
+            quotient.Margin = new Padding(3, 2, 3, 2);
             quotient.Name = "quotient";
-            quotient.Size = new Size(100, 47);
+            quotient.Size = new Size(88, 39);
             quotient.TabIndex = 4;
             quotient.ValueChanged += quotient_ValueChanged;
             quotient.Enter += answer_Enter;
@@ -245,9 +249,9 @@
             // label12
             // 
             label12.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(75, 204);
+            label12.Location = new Point(66, 153);
             label12.Name = "label12";
-            label12.Size = new Size(60, 50);
+            label12.Size = new Size(52, 38);
             label12.TabIndex = 20;
             label12.Text = "÷";
             label12.TextAlign = ContentAlignment.MiddleCenter;
@@ -255,9 +259,9 @@
             // dividedRightLabel
             // 
             dividedRightLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            dividedRightLabel.Location = new Point(141, 204);
+            dividedRightLabel.Location = new Point(123, 153);
             dividedRightLabel.Name = "dividedRightLabel";
-            dividedRightLabel.Size = new Size(60, 50);
+            dividedRightLabel.Size = new Size(52, 38);
             dividedRightLabel.TabIndex = 19;
             dividedRightLabel.Text = "?";
             dividedRightLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -265,9 +269,9 @@
             // label14
             // 
             label14.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label14.Location = new Point(207, 204);
+            label14.Location = new Point(181, 153);
             label14.Name = "label14";
-            label14.Size = new Size(60, 50);
+            label14.Size = new Size(52, 38);
             label14.TabIndex = 18;
             label14.Text = "=";
             label14.TextAlign = ContentAlignment.MiddleCenter;
@@ -275,9 +279,9 @@
             // dividedLeftLabel
             // 
             dividedLeftLabel.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            dividedLeftLabel.Location = new Point(9, 204);
+            dividedLeftLabel.Location = new Point(8, 153);
             dividedLeftLabel.Name = "dividedLeftLabel";
-            dividedLeftLabel.Size = new Size(60, 50);
+            dividedLeftLabel.Size = new Size(52, 38);
             dividedLeftLabel.TabIndex = 17;
             dividedLeftLabel.Text = "?";
             dividedLeftLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -286,9 +290,10 @@
             // 
             startButton.AutoSize = true;
             startButton.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            startButton.Location = new Point(12, 257);
+            startButton.Location = new Point(10, 193);
+            startButton.Margin = new Padding(3, 2, 3, 2);
             startButton.Name = "startButton";
-            startButton.Size = new Size(166, 42);
+            startButton.Size = new Size(145, 35);
             startButton.TabIndex = 0;
             startButton.Text = "Start the quiz";
             startButton.UseVisualStyleBackColor = true;
@@ -304,9 +309,10 @@
             submitButton.AutoSize = true;
             submitButton.Enabled = false;
             submitButton.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            submitButton.Location = new Point(12, 302);
+            submitButton.Location = new Point(10, 226);
+            submitButton.Margin = new Padding(3, 2, 3, 2);
             submitButton.Name = "submitButton";
-            submitButton.Size = new Size(194, 42);
+            submitButton.Size = new Size(170, 35);
             submitButton.TabIndex = 21;
             submitButton.Text = "Submit Answers";
             submitButton.UseVisualStyleBackColor = true;
@@ -314,18 +320,18 @@
             // 
             // dateLabel
             // 
-            dateLabel.Location = new Point(212, 317);
+            dateLabel.Location = new Point(186, 238);
             dateLabel.Name = "dateLabel";
-            dateLabel.Size = new Size(258, 30);
+            dateLabel.Size = new Size(226, 22);
             dateLabel.TabIndex = 22;
             dateLabel.Text = "      ";
             dateLabel.TextAlign = ContentAlignment.TopRight;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(482, 353);
+            ClientSize = new Size(422, 265);
             Controls.Add(dateLabel);
             Controls.Add(submitButton);
             Controls.Add(startButton);
@@ -353,8 +359,9 @@
             Controls.Add(timeLabel);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
-            Text = "Math Quiz";
+            Text = "Kevin Saunders's Math Quiz";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)sum).EndInit();
             ((System.ComponentModel.ISupportInitialize)difference).EndInit();
