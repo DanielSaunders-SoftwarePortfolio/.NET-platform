@@ -23,7 +23,6 @@ public class IndexModel : PageModel
 
     [BindProperty(SupportsGet = true)]
     public string? MovieGenre { get; set; }
-
     public async Task OnGetAsync()
     {
         // Use LINQ to get list of genres.
@@ -43,6 +42,8 @@ public class IndexModel : PageModel
         {
             movies = movies.Where(x => x.Genre == MovieGenre);
         }
+
+
         Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
         Movie = await movies.ToListAsync();
     }
