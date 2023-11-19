@@ -1,0 +1,113 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus, a:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: white;
+}
+
+.my-header {
+    background-color: white;
+    height: 45px;
+    padding-bottom: 15px;
+
+}
+
+.banner {
+    position: relative;
+    background-color: #2F6CD0;
+    box-sizing: border-box;
+    text-align: left:
+}
+
+    .banner img {
+        max-height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .banner h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        color: white;
+        font-family: 'Concert One', sans-serif;
+        font-weight: bold;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    .banner p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 70%);
+        margin: 0;
+        color: white;
+        font-family: 'Patrick Hand', cursive;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
+    }
+
+banner-container {
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.main-logo {
+    width: 100px;
+    height: 100px;
+    overflow: visible;
+    position: relative;
+    top: -30px; 
+}
+
+.spacer {
+    height: 50px;
+}
+
+my-nav {
+    height: 2em;
+}
+
+.tagline {
+    padding-left: 120px;
+}
+
+.bg-1 {
+    background-color: white;
+}
+
+.bg-2 {
+    background-color: aliceblue;
+}
+
+.span {
+    overflow: hidden;
+    width: 100vw;
+    position: relative;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}

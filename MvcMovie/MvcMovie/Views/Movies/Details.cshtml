@@ -4,10 +4,9 @@
     ViewData["Title"] = Model.Title;
 }
 
-<h1>Details</h1>
+<h1>@Model.Title</h1>
 
 <div>
-    <h4>Movie</h4>
     <hr />
     @if (!string.IsNullOrEmpty(Model.CoverPhotoPath))
     {
