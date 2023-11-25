@@ -1,0 +1,114 @@
+﻿@page 
+"
+@model My_Scripture_Journal.Pages.Scriptures.IndexModel
+
+@{
+    ViewData["Title"] = "Scripture Journal";
+}
+
+<h1>Scripture Journal</h1>
+<div class="container">
+    <div class="row">
+        <section class="col-3">
+            <form class="row">
+                <script>
+                    function clearForm() {
+                        document.getElementById("keyword").value = "";
+                        document.getElementById("book").value = "";
+                        document.getElementById("topic").value = "";
+                        document.getElementById("sort-by").value = "";
+                        // Add similar lines for other form fields you want to clear
+                    }
+                </script>
+                <!-- Search by Book    -->
+                <div class="form-group, col-12, row" id="filter-form">
+                    <label class="control-label, row">Book</label>
+                    <select id="book" class="form-control" name="book" asp-for="ViewModel.book" asp-items="Model.BookSelectList">
+                        <option value=""> --Select a Book-- </option>
+                    </select>
+                </div>
+                <!-- Search by Keyword -->
+                <div class="form-group, col-12, row">
+                    <label class="control-label">Keyword</label>
+                    <input id="keyword" class="form-control" asp-for="ViewModel.keyword" type="text" name="keyword" placeholder="inspired" />
+                </div>
+                <!-- Search by Topic   -->
+                <div class="form-group, col-12, row">
+                    <label class="control-label">Topic</label>
+                    <select id="topic" class="form-control" asp-for="ViewModel.topic" name="topic">
+                        <option value=""> --None-- </option>
+                        @foreach (var topic in Enum.GetValues(typeof(My_Scripture_Journal.Models.ScriptureTopic)))
+                        {
+                            <option value="@topic">@topic</option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Sort By Book or Date -->
+                <div class="form-group, col-12, row">
+                    <label>Sort By</label>
+                    <select id="sort-by" class="form-control" asp-for="ViewModel.sortBy" name="sort_by">
+                        <option value=""> --Sort By--</option>
+                        <option value="Date">Date Added</option>
+                        <option value="Book">Book</option>
+                    </select>
+                </div>
+
+                <!-- Submit -->
+                <div class="form-group, col-12, row">
+                    <input class="col-3" type="submit" value="Filter" />
+                    <p class="col-6"></p>
+                    <input class="col-3" type="button" value="Clear" onclick="clearForm()" />
+                </div>
+            </form>
+        </section>
+
+        <section class="col-8">
+            <p>
+                <a asp-page="Create">Create New</a>
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Scripture Reference
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Scripture[0].CreationDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Scripture[0].Notes)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Scripture[0].Topic)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach (var item in Model.Scripture) {
+                    <tr>
+                        <td>
+                            <partial name="_CompositeScriptureReference" model="new My_Scripture_Journal.Pages.Shared.ReferenceViewModel(@item)"></partial>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreationDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Notes)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Topic)
+                        </td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </section>
+    </div>
+</div>
