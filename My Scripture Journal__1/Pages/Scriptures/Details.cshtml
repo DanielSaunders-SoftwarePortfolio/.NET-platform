@@ -1,0 +1,61 @@
+﻿@page
+@model My_Scripture_Journal__1.Pages.Scriptures.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Scripture</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.Book)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.Book)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.Chapter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.Chapter)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.StartVerse)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.StartVerse)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.EndVerse)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.EndVerse)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.CreationDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.CreationDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.Notes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.Notes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Scripture.Topic)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Scripture.Topic)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Scripture?.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
