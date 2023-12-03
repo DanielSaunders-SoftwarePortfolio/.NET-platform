@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.App">
+
+    <!-- Resources used by multiple pages in the application -->
+    <Application.Resources>
+
+        <Thickness x:Key="PageMargin">20</Thickness>
+
+        <!-- Dark Theme Colors -->
+        <Color x:Key="AppPrimaryColor">#0A3C6E</Color>
+        <!-- Dark blue for the primary color -->
+        <Color x:Key="AppBackgroundColor">#121212</Color>
+        <!-- Dark background color -->
+        <Color x:Key="PrimaryColor">#FFFFFF</Color>
+        <!-- White for primary text color -->
+        <Color x:Key="SecondaryColor">#CCCCCC</Color>
+        <!-- Light gray for secondary text color -->
+        <Color x:Key="TertiaryColor">#666666</Color>
+        <!-- Medium gray for tertiary elements -->
+
+
+        <!-- Implicit styles -->
+        <Style TargetType="ContentPage"
+               ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppBackgroundColor}" />
+        </Style>
+
+        <Style TargetType="Label"
+               ApplyToDerivedTypes="True">
+            <Setter Property="TextColor"
+                    Value="{StaticResource SecondaryColor}" />
+        </Style>
+
+        <Style TargetType="Editor"
+                ApplyToDerivedTypes="True">
+            <Setter Property="TextColor"
+                    Value="{StaticResource SecondaryColor}" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="FontSize"
+                    Value="Medium" />
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppPrimaryColor}" />
+            <Setter Property="TextColor"
+                    Value="{StaticResource SecondaryColor}" />
+            <Setter Property="CornerRadius"
+                    Value="5" />
+        </Style>
+
+    </Application.Resources>
+</Application>
